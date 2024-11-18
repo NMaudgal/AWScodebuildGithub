@@ -11,7 +11,8 @@ phases:
             nodejs: 12
         commands:
             - echo "Running on $MY_AWS_REGION"
-            - echo "Print Environment Variables"
+            - echo "Hey Welcome to AWS $name "
+
             - echo "Start the installation process"
             - echo "Installation Process Completed"
     pre_build:
