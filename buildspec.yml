@@ -10,12 +10,14 @@ phases:
         runtime-versions:
             nodejs: 12
         commands:
+
             - echo "Running on my env $MY_AWS_REGION"
             - echo "print environment variables"
             - printenv
             - echo "Start the installation process"
             - echo "Installation Process Completed"
             - echo "MY GOLANG version is $GOLANG_12_VERSION"
+
     pre_build:
         commands: 
             - echo "This is the start of Pre-Build phase"
