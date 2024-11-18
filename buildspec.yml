@@ -11,7 +11,7 @@ phases:
             nodejs: 12
         commands:
             - echo "Running on $MY_AWS_REGION"
-            - echo "Hey Welcome to AWS $name "
+            - echo "Hey Welcome to AWS $Name "
 
             - echo "Start the installation process"
             - echo "Installation Process Completed"
